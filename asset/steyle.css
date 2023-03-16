@@ -95,7 +95,7 @@ a {
 /* hero */
 
 .hero {
-  margin-top: 50px;
+  padding: 50px 0 79px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -269,3 +269,85 @@ a {
   color: #ffffff;
   background: #1fb3b5;
 }
+
+/* features  */
+.features {
+  margin-top: 130px;
+}
+
+.features .text-first {
+  display: block;
+  width: 591px;
+}
+
+.features .text h2 {
+  margin-top: 18px;
+  font-weight: 700;
+  font-size: 4.2rem;
+  line-height: 1.33;
+  color: #0d1111;
+}
+
+.features .text p {
+  margin-top: 18px;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #767e7e;
+}
+
+.features .section {
+  margin-top: 80px;
+  display: flex;
+  gap: 200px;
+}
+
+.features .section .group {
+  width: 223px;
+  height: 259px;
+}
+
+.features .section .icon {
+  width: 102px;
+  height: 106px;
+}
+
+.features .section h3 {
+  margin-top: 26px;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #0d1111;
+}
+
+.features .section p {
+  margin-top: 16px;
+  font-size: 1.6rem;
+  line-height: 1.68;
+  color: #9da6a5;
+}
+
+/* courses*/
+.features .courses {
+  margin-top: 130px;
+}
+
+.features .courses p {
+  width: 512px;
+  margin-top: 19px;
+}
+
+.features .courses .view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.features .courses .view a {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  text-decoration-line: underline;
+  color: #1ebfc1;
+}
+
+/* card  */

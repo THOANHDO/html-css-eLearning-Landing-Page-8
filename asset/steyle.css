@@ -1,5 +1,271 @@
 * {
-  width: 0;
-  height: 0;
   box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* common */
+
+.main-content {
+  width: 1170px;
+  min-width: calc(100vh - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header  */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 52px;
+  height: 48px;
+}
+
+.nav .navbar {
+  display: flex;
+}
+
+.nav .navbar a {
+  padding: 0 20px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #2f3a3b;
+}
+
+.nav .action {
+  display: flex;
+}
+
+.nav .action .sign-in,
+.nav .action .sign-up {
+  padding: 0 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav .action .sign-up {
+  width: 108px;
+  height: 48px;
+  border: 1px solid #1ebfc1;
+  border-radius: 6px;
+}
+
+.nav .action .sign-up:hover {
+  background: #1fb3b5;
+  opacity: 0.9;
+}
+
+.nav .action .sign-in a {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #494949;
+}
+
+.nav .action .sign-in a:hover,
+.nav .navbar a:hover {
+  font-weight: 600;
+  text-decoration: underline;
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+}
+
+.nav .action .sign-up a {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #1ebfc1;
+}
+/* hero */
+
+.hero {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* hero-left  */
+.hero .hero-left {
+  height: 445px;
+  width: 39%;
+}
+
+.hero .hero-left .content-1 {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: #767e7e;
+}
+
+.hero h1.content {
+  margin-top: 18px;
+  font-weight: 700;
+  font-size: 6.2rem;
+  line-height: 1.16;
+  color: #0d1111;
+}
+
+.hero .hero-left .content-2 {
+  width: 374px;
+  height: 96px;
+  margin-top: 46px;
+  font-size: 1.8rem;
+  line-height: 1.78;
+  color: #9da6a5;
+}
+
+.hero .item {
+  margin-top: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.hero .item .btn {
+  display: inline-block;
+  padding: 20px 50px;
+  background: #1ebfc1;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+  border-radius: 14px;
+}
+
+.hero .item .btn a {
+  min-width: 186px;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+.hero .watch-video:hover,
+.hero .item .btn:hover {
+  opacity: 0.9;
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+}
+
+.hero .watch-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  margin-left: 50px;
+  background: #ffffff;
+  box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
+}
+
+/* hero-right  */
+.hero-right {
+  position: relative;
+  width: 61%;
+  gap: 71px;
+}
+
+.hero-right .avatar-hero {
+  display: block;
+  right: 0;
+  width: 576px;
+  height: 631px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.hero-right .title-mini {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #0d1111;
+}
+
+.hero-right .tag {
+  display: inline-block;
+  position: absolute;
+  background: #fefefd;
+}
+
+.hero-right .tag-1 {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 17px 25px 18px;
+  gap: 16px;
+  max-width: 157px;
+  top: 149px;
+  left: 25px;
+  box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
+  border-radius: 18px;
+}
+
+.hero-right .tag-1 .book {
+  position: absolute;
+  display: inline-block;
+  width: 28px;
+  height: 4px;
+  margin: 29px 76px 26px 29px;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.hero-right .tag-2 {
+  padding: 16px 25px 23px;
+  left: 0;
+  bottom: 46px;
+  width: 124px;
+  background: #ffffff;
+  box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
+  border-radius: 24px;
+}
+
+.hero-right .tag-2 .title-mini {
+  margin-bottom: 10px;
+}
+
+.hero-right .tag-2 .icon:last-child {
+  margin: 0 24px;
+}
+
+.hero-right .tag-3 {
+  padding: 17px 35px;
+  right: 45px;
+  bottom: 41px;
+  width: 207px;
+  background: #fefefd;
+  box-shadow: 0px 12px 80px rgba(0, 0, 0, 0.05);
+  border-radius: 24px;
+}
+
+.hero-right .tag-3 .title-mini {
+  margin-bottom: 8px;
+}
+
+.hero .avatar-hero-mini {
+  margin-left: -10px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hero .avatar-hero-mini:last-child {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  background: #1fb3b5;
 }

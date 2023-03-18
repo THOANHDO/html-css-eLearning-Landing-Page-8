@@ -29,9 +29,11 @@ a {
 }
 
 /* header  */
-.header .fixed {
+.fixed {
   position: sticky;
-  padding-top: -44px;
+  top: -42px;
+  background-color: #ffffff;
+  z-index: 1;
 }
 
 .header .body {

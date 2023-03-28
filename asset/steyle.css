@@ -601,6 +601,7 @@ a {
 }
 
 .row .colum-social {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
